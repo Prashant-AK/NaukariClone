@@ -1,0 +1,51 @@
+.header {
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.header_logo {
+  width: 80px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.header_container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header_optionLineOne {
+  font-size: 10px;
+}
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_nav {
+  margin-right: 20px;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}
+.header_search {
+  display: flex;
+  flex: 0.75;
+}
+.header_dropdown {
+  background-color: #fff;
+  color: black;
+  border: none;
+}
